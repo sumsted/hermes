@@ -6,3 +6,4 @@ Starting with integration to Parrot Jumping Sumo. Introducing image processing.
 
 Builds on bybop.
 
+Used by hermes-teleop.
