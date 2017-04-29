@@ -237,6 +237,9 @@ class Device(object):
             self._common_init_product()
         self._init_product()
 
+    def process_event(self, event):
+        pprint.pprint(event)
+
     def data_received(self, buf, data):
         """
         Save the recieved data in the state.
@@ -244,8 +247,12 @@ class Device(object):
         This function is called by the internal Network, and should not be called
         directly by the application.
         """
+        self.process_event("buf: %s, data: %s" % (str(buf), str(data)))
         if buf in self._cmdBuffers:
             dico, ok = unpack_command(data)
+
+            self.process_event(dico)
+
             if not ok:
                 return
 
@@ -447,7 +454,10 @@ class JumpingSumo(Device):
 
     def _init_product(self):
         # Deactivate video streaming
-        self.send_data('jpsumo.MediaStreaming.VideoEnable', 0)
+        self.send_data('jpsumo.MediaStreaming.VideoEnable', 1)
+
+    def process_event(self, event):
+        pprint.pprint(event)
 
     def change_posture(self, posture):
         """
