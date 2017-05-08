@@ -1,1 +1,1 @@
-python generateapi.py hermes.py
+python generateapi.py hermessumo.py
