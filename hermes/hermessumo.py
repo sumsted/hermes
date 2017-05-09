@@ -6,7 +6,7 @@ from bybop.bybop import Bybop_Device
 from bybop.bybop.Bybop_Discovery import Discovery, DeviceID, get_name
 
 
-class Hermes():
+class HermesSumo():
     def __init__(self):
         self.drone = None
         self.connect()

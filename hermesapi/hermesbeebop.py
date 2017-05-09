@@ -52,7 +52,7 @@ class HermesBeebop():
         self.drone.emergency()
         return True
 
-    def flat_trin(self):
+    def flat_trim(self):
         self.drone.flat_trim()
         return True
 

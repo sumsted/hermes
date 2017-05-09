@@ -35,8 +35,8 @@ def HermesBeebop_emergency():
     return g('HermesBeebop_emergency', )['return_value']
 
 
-def HermesBeebop_flat_trin():
-    return g('HermesBeebop_flat_trin', )['return_value']
+def HermesBeebop_flat_trim():
+    return g('HermesBeebop_flat_trim', )['return_value']
 
 
 def HermesBeebop_navigate_home():

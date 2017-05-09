@@ -60,10 +60,10 @@ def HermesBeebop_emergency(kargs):
     return r
 
 
-@get('/HermesBeebop_flat_trin')
+@get('/HermesBeebop_flat_trim')
 @handle_padded
-def HermesBeebop_flat_trin(kargs):
-    r = {'return_value': hermes.flat_trin()}
+def HermesBeebop_flat_trim(kargs):
+    r = {'return_value': hermes.flat_trim()}
     return r
 
 

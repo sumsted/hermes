@@ -21,8 +21,8 @@ class TestHermesbeebop(TestCase):
     def test_HermesBeebop_emergency(self):
         self.assertEqual(HermesBeebop_emergency(), None)
 
-    def test_HermesBeebop_flat_trin(self):
-        self.assertEqual(HermesBeebop_flat_trin(), None)
+    def test_HermesBeebop_flat_trim(self):
+        self.assertEqual(HermesBeebop_flat_trim(), None)
 
     def test_HermesBeebop_navigate_home(self):
         self.assertEqual(HermesBeebop_navigate_home(), None)

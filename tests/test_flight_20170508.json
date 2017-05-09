@@ -1,0 +1,221 @@
+{
+  "ardrone3": {
+    "AntiflickeringState": {
+      "electricFrequencyChanged": {
+        "frequency": 0
+      },
+      "modeChanged": {
+        "mode": 0
+      }
+    },
+    "GPSSettingsState": {
+      "HomeTypeChanged": {
+        "type": 0
+      },
+      "ReturnHomeDelayChanged": {
+        "delay": 0
+      }
+    },
+    "GPSState": {
+      "NumberOfSatelliteChanged": {
+        "numberOfSatellite": 10
+      }
+    },
+    "NetworkSettingsState": {
+      "WifiSelectionChanged": {
+        "band": 0,
+        "channel": 3,
+        "type": 1
+      }
+    },
+    "PROState": {
+      "Features": {
+        "features": 0
+      }
+    },
+    "PictureSettingsState": {
+      "AutoWhiteBalanceChanged": {
+        "type": 0
+      },
+      "ExpositionChanged": {
+        "max": 1.5,
+        "min": -1.5,
+        "value": 0.0
+      },
+      "PictureFormatChanged": {
+        "type": 0
+      },
+      "SaturationChanged": {
+        "max": 100.0,
+        "min": -100.0,
+        "value": 0.0
+      },
+      "TimelapseChanged": {
+        "enabled": 0,
+        "interval": 8.0,
+        "maxInterval": 300.0,
+        "minInterval": 8.0
+      },
+      "VideoAutorecordChanged": {
+        "enabled": 1,
+        "mass_storage_id": 0
+      },
+      "VideoFramerateChanged": {
+        "framerate": 0
+      },
+      "VideoRecordingModeChanged": {
+        "mode": 0
+      },
+      "VideoStabilizationModeChanged": {
+        "mode": 0
+      }
+    },
+    "PilotingSettingsState": {
+      "AbsolutControlChanged": {
+        "on": 0
+      },
+      "BankedTurnChanged": {
+        "state": 0
+      },
+      "MaxAltitudeChanged": {
+        "current": 2.3774399757385254,
+        "max": 150.0,
+        "min": 0.5
+      },
+      "MaxDistanceChanged": {
+        "current": 10.0,
+        "max": 2000.0,
+        "min": 10.0
+      },
+      "MaxTiltChanged": {
+        "current": 9.0,
+        "max": 30.0,
+        "min": 5.0
+      },
+      "NoFlyOverMaxDistanceChanged": {
+        "shouldNotFlyOver": 0
+      }
+    },
+    "PilotingState": {
+      "AltitudeChanged": {
+        "altitude": 0.0
+      },
+      "AttitudeChanged": {
+        "pitch": 0.028801988810300827,
+        "roll": 0.020942365750670433,
+        "yaw": -3.0994930267333984
+      },
+      "FlyingStateChanged": {
+        "state": 0
+      },
+      "PositionChanged": {
+        "altitude": 97.0,
+        "latitude": 35.06068999999767,
+        "longitude": -89.66483333333314
+      },
+      "SpeedChanged": {
+        "speedX": 0.0,
+        "speedY": 0.0,
+        "speedZ": 0.0
+      }
+    },
+    "SettingsState": {
+      "P7ID": {
+        "serialID": "P732P0VC650000818090"
+      },
+      "ProductGPSVersionChanged": {
+        "hardware": "",
+        "software": "OPUS7_SFLASH_MP_64P__ENP655C1520403F15204"
+      }
+    },
+    "SpeedSettingsState": {
+      "HullProtectionChanged": {
+        "present": 0
+      },
+      "MaxPitchRollRotationSpeedChanged": {
+        "current": 80.0,
+        "max": 300.0,
+        "min": 80.0
+      },
+      "MaxRotationSpeedChanged": {
+        "current": 27.0,
+        "max": 200.0,
+        "min": 10.0
+      },
+      "MaxVerticalSpeedChanged": {
+        "current": 2.0,
+        "max": 2.5,
+        "min": 0.5
+      },
+      "OutdoorChanged": {
+        "outdoor": 1
+      }
+    }
+  },
+  "common": {
+    "ARLibsVersionsState": {
+      "DeviceLibARCommandsVersion": {
+        "version": "4.0.0.4"
+      }
+    },
+    "CommonState": {
+      "AllStatesChanged": {},
+      "BatteryStateChanged": {
+        "percent": 43
+      },
+      "CurrentDateChanged": {
+        "date": "2017-05-08"
+      },
+      "CurrentTimeChanged": {
+        "time": "T211750+0000"
+      },
+      "DeprecatedMassStorageContentChanged": {
+        0: {
+          "mass_storage_id": 0,
+          "nbCrashLogs": 0,
+          "nbPhotos": 2,
+          "nbPuds": 0,
+          "nbVideos": 4
+        }
+      },
+      "SensorsStatesListChanged": {
+        0: {
+          "sensorName": 0,
+          "sensorState": 1
+        }
+      }
+    },
+    "RunState": {
+      "RunIdChanged": {
+        "runId": ""
+      }
+    },
+    "SettingsState": {
+      "AllSettingsChanged": {},
+      "AutoCountryChanged": {
+        "automatic": 1
+      },
+      "CountryChanged": {
+        "code": "US"
+      },
+      "ProductNameChanged": {
+        "name": "BebopDrone-H118492"
+      },
+      "ProductSerialHighChanged": {
+        "high": "PI040306A"
+      },
+      "ProductSerialLowChanged": {
+        "low": "I5H118492"
+      },
+      "ProductVersionChanged": {
+        "hardware": "HW_11",
+        "software": "3.3.0"
+      }
+    },
+    "WifiSettingsState": {
+      "outdoorSettingsChanged": {
+        "outdoor": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "ardrone3": {
+    "AntiflickeringState": {
+      "modeChanged": {
+        "mode": 0
+      },
+      "electricFrequencyChanged": {
+        "frequency": 0
+      }
+    },
+    "CameraState": {
+      "defaultCameraOrientation": {
+        "tilt": 0,
+        "pan": 0
+      },
+      "Orientation": {
+        "tilt": 0,
+        "pan": 0
+      }
+    },
+    "MediaRecordState": {
+      "VideoStateChanged": {
+        "state": 0,
+        "mass_storage_id": 255
+      },
+      "VideoStateChangedV2": {
+        "state": 0,
+        "error": 0
+      },
+      "PictureStateChangedV2": {
+        "state": 0,
+        "error": 0
+      }
+    },
+    "MediaStreamingState": {
+      "VideoEnableChanged": {
+        "enabled": 1
+      }
+    },
+    "PictureSettingsState": {
+      "VideoStabilizationModeChanged": {
+        "mode": 0
+      },
+      "AutoWhiteBalanceChanged": {
+        "type": 0
+      },
+      "ExpositionChanged": {
+        "max": 1.5,
+        "value": 0.0,
+        "min": -1.5
+      },
+      "VideoRecordingModeChanged": {
+        "mode": 0
+      },
+      "PictureFormatChanged": {
+        "type": 0
+      },
+      "SaturationChanged": {
+        "max": 100.0,
+        "value": 0.0,
+        "min": -100.0
+      },
+      "TimelapseChanged": {
+        "minInterval": 8.0,
+        "maxInterval": 300.0,
+        "interval": 8.0,
+        "enabled": 0
+      },
+      "VideoAutorecordChanged": {
+        "enabled": 1,
+        "mass_storage_id": 0
+      },
+      "VideoFramerateChanged": {
+        "framerate": 0
+      }
+    },
+    "SpeedSettingsState": {
+      "MaxVerticalSpeedChanged": {
+        "current": 2.0,
+        "max": 2.5,
+        "min": 0.5
+      },
+      "MaxRotationSpeedChanged": {
+        "current": 27.0,
+        "max": 200.0,
+        "min": 10.0
+      },
+      "MaxPitchRollRotationSpeedChanged": {
+        "current": 80.0,
+        "max": 300.0,
+        "min": 80.0
+      },
+      "OutdoorChanged": {
+        "outdoor": 1
+      },
+      "HullProtectionChanged": {
+        "present": 0
+      }
+    },
+    "PilotingSettingsState": {
+      "NoFlyOverMaxDistanceChanged": {
+        "shouldNotFlyOver": 0
+      },
+      "BankedTurnChanged": {
+        "state": 0
+      },
+      "MaxAltitudeChanged": {
+        "current": 2.3774399757385254,
+        "max": 150.0,
+        "min": 0.5
+      },
+      "AbsolutControlChanged": {
+        "on": 0
+      },
+      "MaxDistanceChanged": {
+        "current": 10.0,
+        "max": 2000.0,
+        "min": 10.0
+      },
+      "MaxTiltChanged": {
+        "current": 9.0,
+        "max": 30.0,
+        "min": 5.0
+      }
+    },
+    "GPSSettingsState": {
+      "HomeTypeChanged": {
+        "type": 0
+      },
+      "HomeChanged": {
+        "latitude": 500.0,
+        "altitude": 500.0,
+        "longitude": 500.0
+      },
+      "ReturnHomeDelayChanged": {
+        "delay": 0
+      },
+      "GPSFixStateChanged": {
+        "fixed": 0
+      }
+    },
+    "PilotingState": {
+      "NavigateHomeStateChanged": {
+        "state": 2,
+        "reason": 1
+      },
+      "FlyingStateChanged": {
+        "state": 0
+      },
+      "AttitudeChanged": {
+        "yaw": -3.036273241043091,
+        "roll": 0.011572079733014107,
+        "pitch": 0.01914248988032341
+      },
+      "AltitudeChanged": {
+        "altitude": 0.0
+      },
+      "PositionChanged": {
+        "latitude": 500.0,
+        "altitude": 500.0,
+        "longitude": 500.0
+      },
+      "AlertStateChanged": {
+        "state": 0
+      },
+      "SpeedChanged": {
+        "speedY": 0.0,
+        "speedX": 0.0,
+        "speedZ": 0.0
+      }
+    },
+    "SettingsState": {
+      "ProductGPSVersionChanged": {
+        "hardware": "",
+        "software": "OPUS7_SFLASH_MP_64P__ENP655C1520403F15204"
+      },
+      "MotorErrorStateChanged": {
+        "motorError": 0,
+        "motorIds": 0
+      },
+      "MotorFlightsStatusChanged": {
+        "lastFlightDuration": 92,
+        "totalFlightDuration": 1464,
+        "nbFlights": 23
+      },
+      "MotorErrorLastErrorChanged": {
+        "motorError": 0
+      },
+      "P7ID": {
+        "serialID": "P732P0VC650000818090"
+      },
+      "MotorSoftwareVersionChanged": {
+        "version": "2.0.R.4"
+      }
+    },
+    "NetworkSettingsState": {
+      "wifiSecurityChanged": {
+        "type": 0
+      },
+      "WifiSelectionChanged": {
+        "band": 0,
+        "type": 1,
+        "channel": 8
+      },
+      "wifiSecurity": {
+        "keyType": 0,
+        "type": 0,
+        "key": ""
+      }
+    },
+    "GPSState": {
+      "HomeTypeChosenChanged": {
+        "type": 2
+      },
+      "HomeTypeAvailabilityChanged": {
+        2: {
+          "available": 1,
+          "type": 2
+        }
+      }
+    },
+    "PROState": {
+      "Features": {
+        "features": 0
+      }
+    }
+  },
+  "common": {
+    "ARLibsVersionsState": {
+      "DeviceLibARCommandsVersion": {
+        "version": "4.0.0.4"
+      }
+    },
+    "RunState": {
+      "RunIdChanged": {
+        "runId": ""
+      }
+    },
+    "SettingsState": {
+      "ProductSerialLowChanged": {
+        "low": "I5H118492"
+      },
+      "AutoCountryChanged": {
+        "automatic": 1
+      },
+      "ProductSerialHighChanged": {
+        "high": "PI040306A"
+      },
+      "ProductVersionChanged": {
+        "hardware": "HW_11",
+        "software": "3.3.0"
+      },
+      "CountryChanged": {
+        "code": "US"
+      },
+      "ProductNameChanged": {
+        "name": "BebopDrone-H118492"
+      },
+      "AllSettingsChanged": {}
+    },
+    "CalibrationState": {
+      "MagnetoCalibrationRequiredState": {
+        "required": 0
+      }
+    },
+    "CommonState": {
+      "AllStatesChanged": {},
+      "DeprecatedMassStorageContentChanged": {
+        0: {
+          "nbVideos": 2,
+          "nbCrashLogs": 0,
+          "nbPuds": 0,
+          "mass_storage_id": 0,
+          "nbPhotos": 2
+        }
+      },
+      "CurrentTimeChanged": {
+        "time": "T225248+0000"
+      },
+      "WifiSignalChanged": {
+        "rssi": -39
+      },
+      "MassStorageStateListChanged": {
+        0: {
+          "mass_storage_id": 0,
+          "name": "internal"
+        }
+      },
+      "SensorsStatesListChanged": {
+        0: {
+          "sensorState": 1,
+          "sensorName": 0
+        },
+        1: {
+          "sensorState": 1,
+          "sensorName": 1
+        },
+        2: {
+          "sensorState": 1,
+          "sensorName": 2
+        },
+        3: {
+          "sensorState": 1,
+          "sensorName": 3
+        },
+        4: {
+          "sensorState": 1,
+          "sensorName": 4
+        },
+        5: {
+          "sensorState": 1,
+          "sensorName": 5
+        }
+      },
+      "MassStorageInfoStateListChanged": {
+        0: {
+          "full": 0,
+          "plugged": 1,
+          "internal": 1,
+          "mass_storage_id": 0,
+          "used_size": 513,
+          "size": 7338
+        }
+      },
+      "BatteryStateChanged": {
+        "percent": 83
+      },
+      "CurrentDateChanged": {
+        "date": "2017-05-07"
+      }
+    },
+    "WifiSettingsState": {
+      "outdoorSettingsChanged": {
+        "outdoor": 0
+      }
+    },
+    "MavlinkState": {
+      "MavlinkFilePlayingStateChanged": {
+        "state": 1,
+        "type": 0,
+        "filepath": "/data/ftp/internal_000/flightplans/flightPlan.mavlink"
+      }
+    },
+    "CameraSettingsState": {
+      "CameraSettingsChanged": {
+        "tiltMax": 30.0,
+        "panMax": 35.0,
+        "tiltMin": -70.0,
+        "fov": 78.0,
+        "panMin": -35.0
+      }
+    },
+    "FlightPlanState": {
+      "AvailabilityStateChanged": {
+        "AvailabilityState": 0
+      },
+      "ComponentStateListChanged": {
+        0: {
+          "State": 0,
+          "component": 0
+        },
+        1: {
+          "State": 1,
+          "component": 1
+        },
+        2: {
+          "State": 1,
+          "component": 2
+        },
+        3: {
+          "State": 1,
+          "component": 3
+        }
+      }
+    }
+  }
+}

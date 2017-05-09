@@ -238,7 +238,8 @@ class Device(object):
         self._init_product()
 
     def process_event(self, event):
-        pprint.pprint(event)
+        #pprint.pprint(event)
+        pass
 
     def data_received(self, buf, data):
         """
@@ -437,6 +438,53 @@ class BebopDrone(Device):
         An emergency request shuts down the motors.
         """
         self.send_data('ardrone3.Piloting.Emergency')
+
+    def flat_trim(self):
+        self.send_data('ardrone3.Piloting.FlatTrim')
+
+    def navigate_home(self):
+        self.send_data('ardrone3.Piloting.NavigateHome')
+
+    def move_by(self, dx, dy, dz, dr):
+        self.send_data('ardrone3.Piloting.moveBy', dx, dy, dz, dr)
+
+    def max_altitude(self, m):
+        self.send_data('ardrone3.PilotingSettings.MaxAltitude', m)
+
+    def max_tilt(self, d):
+        self.send_data('ardrone3.PilotingSettings.MaxTilt', d)
+
+    def max_distance(self, m):
+        self.send_data('ardrone3.PilotingSettings.MaxDistance', m)
+
+    def autonomous_flight_max_horizontal_speed(self, ms):
+        self.send_data('ardrone3.PilotingSettings.setAutonomousFlightMaxHorizontalSpeed', ms)
+
+    def autonomous_flight_max_vertical_speed(self, ms):
+        self.send_data('ardrone3.PilotingSettings.setAutonomousFlightMaxVerticalSpeed', ms)
+
+    def autonomous_flight_max_horizontal_acceleration(self, mss):
+        self.send_data('ardrone3.PilotingSettings.setAutonomousFlightMaxHorizontalAcceleration', mss)
+
+    def autonomous_flight_max_vertical_acceleration(self, mss):
+        self.send_data('ardrone3.PilotingSettings.setAutonomousFlightMaxVerticalAcceleration', mss)
+
+    def autonomous_flight_max_rotation_speed(self, ms):
+        self.send_data('ardrone3.PilotingSettings.setAutonomousFlightMaxRotationSpeed', ms)
+
+    def max_vertical_speed(self, ms):
+        self.send_data('ardrone3.PilotingSettings.MaxVerticalSpeed', ms)
+
+    def max_rotation_speed(self, ms):
+        self.send_data('ardrone3.PilotingSettings.MaxRotationSpeed', ms)
+
+    def set_home(self, lat, lon, alt):
+        self.send_data('ardrone3.GPSSettings.SetHome', lat, lon, alt)
+
+    def get_location(self):
+        return self.get_state()['ardrone3']['PilotingState']['PositionChanged']
+
+
 
 class JumpingSumo(Device):
     def __init__(self, ip, c2d_port, d2c_port):

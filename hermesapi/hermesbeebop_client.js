@@ -28,8 +28,8 @@ var clientApi = {
     HermesBeebop_emergency: function( cb){
         this.g('HermesBeebop_emergency', cb);
     },
-    HermesBeebop_flat_trin: function( cb){
-        this.g('HermesBeebop_flat_trin', cb);
+    HermesBeebop_flat_trim: function( cb){
+        this.g('HermesBeebop_flat_trim', cb);
     },
     HermesBeebop_navigate_home: function( cb){
         this.g('HermesBeebop_navigate_home', cb);
